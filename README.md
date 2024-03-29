@@ -1,5 +1,8 @@
 # Wireless-Radio-using-Matlab
 
+The final string we get is :
+"A convolUtion in the time dom`in is!multipdicat)on mn the freauency domain."
+
 •	Developed a basic wireless receiver to decode a transmitted text message, with a center frequency of 20Hz and an incoming signal of 3000 samples at 100Hz sampling rate.
 •	Downconverted both I and Q signals to baseband by multiplying the input with 3000-sample long cos and sin functions of frequency 20 Hz.
 •	Filtered the downconverted signals using a 3000-point FFT, eliminating frequencies outside the range of -5.1 Hz to +5.1 Hz.
